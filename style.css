@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+#container h2 {
+  color: rgb(243, 57, 57);
+}
+#container h3 {
+  letter-spacing: 5px;
+  font-size: 2rem;
+}
+#wrap {
+  height: 90.8vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+button {
+  padding: 10px 30px;
+  background-color: brown;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 5px;
+}
